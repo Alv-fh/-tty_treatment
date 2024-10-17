@@ -4,7 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/8075b3ba-0ed1-466c-b291-0673e35568a0)
 
-### Paso 1 
+## Paso 1 
 
 `script /dev/null -c bash`
 
@@ -13,7 +13,7 @@ Escribimos el siguiente comando para iniciar una grabación de la sesión de ter
 
 ![image](https://github.com/user-attachments/assets/ef5ce946-81dc-4fcf-9f5c-f27e4158bd57)
 
-### Paso 2 
+## Paso 2 
 
 `Ctrl + Z`
 
@@ -21,7 +21,7 @@ Lo que hace la combinación de teclas `Ctrl + Z` es suspender el proceso actual 
 
 ![image](https://github.com/user-attachments/assets/d4b88316-8817-4a0f-8deb-83b3a04138f7)
 
-### Paso 3
+## Paso 3
 
 `stty raw -echo; fg`
 
@@ -39,7 +39,7 @@ Este paso cambia el comportamiento de la terminal y luego reanuda el shell suspe
 ![image](https://github.com/user-attachments/assets/7dab5d24-37e3-4d53-95e8-1503ed20fa4b)
 
 
-### Paso 4
+## Paso 4
 
 `reset xterm`
 
@@ -47,7 +47,7 @@ El comando `reset` se utiliza para restaurar la configuración de la terminal a 
 
 ![image](https://github.com/user-attachments/assets/ee8d36c0-8077-42a9-bad2-92912d2537f0)
 
-### Paso 5
+## Paso 5
 
 `export SHELL=bash`
 
@@ -55,7 +55,7 @@ El comando `export` se utiliza para definir variables de entorno. En este caso, 
 
 ![image](https://github.com/user-attachments/assets/8d7759ff-ddc2-46f1-b844-f010a9667daa)
 
-### Paso 6
+## Paso 6
 
 `export TERM=xterm`
 
